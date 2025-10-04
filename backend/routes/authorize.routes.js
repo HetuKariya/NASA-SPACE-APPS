@@ -18,9 +18,15 @@ router.post("/login", login);
 router.post("/register", register);
 router.post("/logout", logout);
 
-// Google OAuth
-router.get("/google", googleAuth);
-router.get("/google/callback", googleCallback);
+
+// Google OAuth - temporary inline functions for testing
+router.get("/google", (req, res) => {
+  res.json({ message: "Google OAuth route works!" });
+});
+
+router.get("/google/callback", (req, res) => {
+  res.json({ message: "Google OAuth callback works!" });
+});
 
 router.get("/me", authenticateJWT, (req, res) => {
   res.status(200).json({ isAuthenticated: true, user: req.user });
