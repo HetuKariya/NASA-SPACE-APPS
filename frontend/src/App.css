@@ -40,3 +40,53 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+.btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #667eea;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+  min-height: 44px;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.result {
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 14px;
+  }
+}
