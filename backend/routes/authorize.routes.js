@@ -17,6 +17,11 @@ const router = Router();
 router.post("/login", login);
 router.post("/register", register);
 router.post("/logout", logout);
+
+// Google OAuth
+router.get("/google", googleAuth);
+router.get("/google/callback", googleCallback);
+
 router.get("/me", authenticateJWT, (req, res) => {
   res.status(200).json({ isAuthenticated: true, user: req.user });
 });
