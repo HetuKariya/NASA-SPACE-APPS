@@ -1,0 +1,398 @@
+{
+  "T2M": {
+    "description": "Temperature Mean",
+    "unit": "N/A",
+    "monthly": {
+      "Jan": {
+        "min": 16.72,
+        "max": 26.51,
+        "mean": 21.36
+      },
+      "Feb": {
+        "min": 20.78,
+        "max": 29.46,
+        "mean": 25.09
+      },
+      "Mar": {
+        "min": 22.21,
+        "max": 32.21,
+        "mean": 27.24
+      },
+      "Apr": {
+        "min": 23.92,
+        "max": 33.84,
+        "mean": 29.78
+      },
+      "May": {
+        "min": 25.57,
+        "max": 35.78,
+        "mean": 31.24
+      },
+      "Jun": {
+        "min": 22.79,
+        "max": 34.49,
+        "mean": 29.86
+      },
+      "Jul": {
+        "min": 23.67,
+        "max": 30.21,
+        "mean": 27.27
+      },
+      "Aug": {
+        "min": 23.21,
+        "max": 28.04,
+        "mean": 26.46
+      },
+      "Sep": {
+        "min": 22.77,
+        "max": 29.45,
+        "mean": 27.05
+      },
+      "Oct": {
+        "min": 20.69,
+        "max": 29.85,
+        "mean": 26.72
+      },
+      "Nov": {
+        "min": 20.74,
+        "max": 28.82,
+        "mean": 25.22
+      },
+      "Dec": {
+        "min": 17.81,
+        "max": 26.82,
+        "mean": 23.5
+      }
+    }
+  },
+  "T2M_MAX": {
+    "description": "Temperature Max",
+    "unit": "N/A",
+    "monthly": {
+      "Jan": {
+        "min": 21.51,
+        "max": 36.5,
+        "mean": 28.69
+      },
+      "Feb": {
+        "min": 23.62,
+        "max": 40.74,
+        "mean": 33.33
+      },
+      "Mar": {
+        "min": 25.5,
+        "max": 39.87,
+        "mean": 33.47
+      },
+      "Apr": {
+        "min": 26.3,
+        "max": 42.86,
+        "mean": 36.01
+      },
+      "May": {
+        "min": 28.2,
+        "max": 45.22,
+        "mean": 37.12
+      },
+      "Jun": {
+        "min": 24.41,
+        "max": 41.52,
+        "mean": 33.87
+      },
+      "Jul": {
+        "min": 25.3,
+        "max": 33.5,
+        "mean": 29.39
+      },
+      "Aug": {
+        "min": 25.6,
+        "max": 32.35,
+        "mean": 29.19
+      },
+      "Sep": {
+        "min": 24.47,
+        "max": 33.75,
+        "mean": 29.73
+      },
+      "Oct": {
+        "min": 26.67,
+        "max": 35.63,
+        "mean": 31.67
+      },
+      "Nov": {
+        "min": 24.4,
+        "max": 36.56,
+        "mean": 31.63
+      },
+      "Dec": {
+        "min": 23.79,
+        "max": 37.29,
+        "mean": 29.99
+      }
+    }
+  },
+  "T2M_MIN": {
+    "description": "Temperature Min",
+    "unit": "N/A",
+    "monthly": {
+      "Jan": {
+        "min": 8.65,
+        "max": 22.26,
+        "mean": 15.36
+      },
+      "Feb": {
+        "min": 12.39,
+        "max": 24.34,
+        "mean": 18.1
+      },
+      "Mar": {
+        "min": 13.74,
+        "max": 27.06,
+        "mean": 21.81
+      },
+      "Apr": {
+        "min": 15.36,
+        "max": 28.16,
+        "mean": 24.18
+      },
+      "May": {
+        "min": 17.99,
+        "max": 30.3,
+        "mean": 26.14
+      },
+      "Jun": {
+        "min": 21.01,
+        "max": 30.49,
+        "mean": 26.85
+      },
+      "Jul": {
+        "min": 21.58,
+        "max": 28.73,
+        "mean": 25.77
+      },
+      "Aug": {
+        "min": 20.38,
+        "max": 27.78,
+        "mean": 24.57
+      },
+      "Sep": {
+        "min": 20.34,
+        "max": 28.84,
+        "mean": 25.02
+      },
+      "Oct": {
+        "min": 15.15,
+        "max": 29.19,
+        "mean": 22.56
+      },
+      "Nov": {
+        "min": 14.46,
+        "max": 27.38,
+        "mean": 20.13
+      },
+      "Dec": {
+        "min": 12.56,
+        "max": 25.46,
+        "mean": 18.58
+      }
+    }
+  },
+  "PRECTOTCORR": {
+    "description": "Precipitation",
+    "unit": "N/A",
+    "monthly": {
+      "Jan": {
+        "min": 0,
+        "max": 0.42,
+        "mean": 0.01
+      },
+      "Feb": {
+        "min": 0,
+        "max": 0.19,
+        "mean": 0
+      },
+      "Mar": {
+        "min": 0,
+        "max": 5.39,
+        "mean": 0.46
+      },
+      "Apr": {
+        "min": 0,
+        "max": 6.47,
+        "mean": 0.37
+      },
+      "May": {
+        "min": 0,
+        "max": 6.8,
+        "mean": 0.34
+      },
+      "Jun": {
+        "min": 0,
+        "max": 106.83,
+        "mean": 8.62
+      },
+      "Jul": {
+        "min": 0.97,
+        "max": 97.28,
+        "mean": 20.93
+      },
+      "Aug": {
+        "min": 0,
+        "max": 11.63,
+        "mean": 1.67
+      },
+      "Sep": {
+        "min": 0,
+        "max": 69.25,
+        "mean": 7.86
+      },
+      "Oct": {
+        "min": 0,
+        "max": 2.86,
+        "mean": 0.05
+      },
+      "Nov": {
+        "min": 0,
+        "max": 35.74,
+        "mean": 1.17
+      },
+      "Dec": {
+        "min": 0,
+        "max": 1.28,
+        "mean": 0.03
+      }
+    }
+  },
+  "WS2M": {
+    "description": "Wind Speed",
+    "unit": "N/A",
+    "monthly": {
+      "Jan": {
+        "min": 1.09,
+        "max": 6.97,
+        "mean": 2.73
+      },
+      "Feb": {
+        "min": 1.22,
+        "max": 5.98,
+        "mean": 2.35
+      },
+      "Mar": {
+        "min": 0.9,
+        "max": 5.05,
+        "mean": 2.35
+      },
+      "Apr": {
+        "min": 1.05,
+        "max": 4.86,
+        "mean": 2.51
+      },
+      "May": {
+        "min": 0.91,
+        "max": 7.2,
+        "mean": 3.55
+      },
+      "Jun": {
+        "min": 2.27,
+        "max": 11.15,
+        "mean": 5.21
+      },
+      "Jul": {
+        "min": 2.34,
+        "max": 8.34,
+        "mean": 4.77
+      },
+      "Aug": {
+        "min": 1.22,
+        "max": 8.45,
+        "mean": 4.56
+      },
+      "Sep": {
+        "min": 0.79,
+        "max": 7.38,
+        "mean": 3.05
+      },
+      "Oct": {
+        "min": 0.59,
+        "max": 4.16,
+        "mean": 1.95
+      },
+      "Nov": {
+        "min": 1.05,
+        "max": 5.16,
+        "mean": 2.57
+      },
+      "Dec": {
+        "min": 1.1,
+        "max": 7.33,
+        "mean": 2.72
+      }
+    }
+  },
+  "CLOUD_AMT": {
+    "description": "Cloud Cover",
+    "unit": "N/A",
+    "monthly": {
+      "Jan": {
+        "min": 0.17,
+        "max": 34.19,
+        "mean": 10.72
+      },
+      "Feb": {
+        "min": 0.32,
+        "max": 41.97,
+        "mean": 8.91
+      },
+      "Mar": {
+        "min": 0.39,
+        "max": 89.89,
+        "mean": 31.84
+      },
+      "Apr": {
+        "min": 1.1,
+        "max": 94.33,
+        "mean": 28.62
+      },
+      "May": {
+        "min": 0.75,
+        "max": 74.38,
+        "mean": 21.77
+      },
+      "Jun": {
+        "min": 1.14,
+        "max": 99.85,
+        "mean": 60.67
+      },
+      "Jul": {
+        "min": 62.32,
+        "max": 99.84,
+        "mean": 95.13
+      },
+      "Aug": {
+        "min": 12.71,
+        "max": 99.9,
+        "mean": 78.46
+      },
+      "Sep": {
+        "min": 8.78,
+        "max": 99.84,
+        "mean": 73.1
+      },
+      "Oct": {
+        "min": 1.07,
+        "max": 72.15,
+        "mean": 14.79
+      },
+      "Nov": {
+        "min": 0.17,
+        "max": 89.14,
+        "mean": 18.87
+      },
+      "Dec": {
+        "min": 0.28,
+        "max": 99.14,
+        "mean": 28.22
+      }
+    }
+  }
+}
