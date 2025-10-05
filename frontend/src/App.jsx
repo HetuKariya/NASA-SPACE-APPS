@@ -1,30 +1,15 @@
-import { BrowserRouter as Router } from 'react-router-dom';
-import { AuthProvider } from './context/AuthContext';
-import Header from './components/common/Header';
-import Navbar from './components/common/Navbar';
-import Footer from './components/common/Footer';
-import AppRoutes from './routes/AppRoutes';
-import './App.css';
+// import MapWithSearch from "./components/MapWithSearch";
+import WeatherForcast from "./components/WeatherForcast";
+import ClickableMap from "./components/ClickableMap";
+import WeatherVisualization from './components/WeatherVisualization';
 
 function App() {
   return (
-    <Router
-      future={{
-        v7_startTransition: true,
-        v7_relativeSplatPath: true,
-      }}
-    >
-      <AuthProvider>
-        <div className="app-container">
-          <Header />
-          <Navbar />
-          <main className="app-content">
-            <AppRoutes />
-          </main>
-          <Footer />
-        </div>
-      </AuthProvider>
-    </Router>
+    <div style={{ width: "100%", height: "100vh" }}>
+      <ClickableMap/>
+      <WeatherForcast />
+      <WeatherVisualization/>
+    </div>
   );
 }
 
